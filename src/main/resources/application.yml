@@ -1,0 +1,10 @@
+server:
+  port: 8087
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@172.16.0.14:1521:LHST
+    username: XRAYADMIN
+    password: 300973**45
+  thymeleaf:
+    cache: false
